@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Enhanced HTML‑Only Website</title>
+</head>
+
+<!-- ADDING BACKGROUND IMAGE & COLOR WITHOUT CSS -->
+<body>
+
+<!-- OUTER WRAPPER TABLE WITH LIGHT SHADE -->
+<table width="85%" align="center" cellpadding="12" >
+    <tr>
+        <td>
+
+            <header>
+                <h1 align="center">HTML‑Only Enhanced Website</h1>
+                <hr color="white">
+
+                <!-- Navigation with colored cells -->
+                <nav>
+                    <table width="100%" cellpadding="8">
+                        <tr align="center">
+                            <td ><a href="#text">Text</a></td>
+                            <td ><a href="#media">Media</a></td>
+                            <td ><a href="#forms">Forms</a></td>
+                            <td ><a href="#tables">Tables</a></td>
+                            <td ><a href="#lists">Lists</a></td>
+                            <td ><a href="#semantic">Semantic</a></td>
+                            <td ><a href="#other">Misc</a></td>
+                        </tr>
+                    </table>
+                </nav>
+                <hr color="white">
+            </header>
+
+            <main>
+
+                <!-- TEXT SECTION WITH SHADED BOX -->
+                <section id="text">
+                    <table width="100%"  cellpadding="10">
+                        <tr><td>
+                            <h2>Text & Formatting</h2>
+                            <p>This page now includes background images, shaded tables, and colored elements — all using pure HTML attributes.</p>
+                            <p>
+                                <b>Bold</b>, <i>Italic</i>, <u>Underline</u>,
+                                <mark>Highlight</mark>, X<sup>2</sup>, H<sub>2</sub>O
+                            </p>
+                            <blockquote>"Still no CSS. Still looks better."</blockquote>
+                        </td></tr>
+                    </table>
+                </section>
+                <br>
+
+                <!-- MEDIA SECTION -->
+                <section id="media">
+                    <table width="100%"  cellpadding="10">
+                        <tr><td>
+                            <h2>Media</h2>
+
+                            <!-- Replace placeholder with real scenic image -->
+                            <figure>
+                                <img src="https://images.unsplash.com/photo-1503264116251-35a269479413" width="300">
+                                <figcaption>Beautiful Scenic Image</figcaption>
+                            </figure>
+
+                            <p><b>Audio:</b></p>
+                            <audio controls>
+                                <source src="sample.mp3" type="audio/mpeg">
+                            </audio>
+
+                            <p><b>Video:</b></p>
+                            <video width="300" controls>
+                                <source src="sample.mp4" type="video/mp4">
+                            </video>
+                        </td></tr>
+                    </table>
+                </section>
+                <br>
+
+                <!-- FORMS SECTION -->
+                <section id="forms">
+                    <table width="100%"  cellpadding="10">
+                        <tr><td>
+                            <h2>Forms</h2>
+                            <form>
+                                <table cellpadding="8">
+                                    <tr><td>Name:</td><td><input type="text"></td></tr>
+                                    <tr><td>Email:</td><td><input type="email"></td></tr>
+                                    <tr><td>Password:</td><td><input type="password"></td></tr>
+                                    <tr><td>File:</td><td><input type="file"></td></tr>
+                                    <tr><td>Date:</td><td><input type="date"></td></tr>
+                                    <tr><td>Range:</td><td><input type="range"></td></tr>
+                                    <tr>
+                                        <td>Gender:</td>
+                                        <td>
+                                            <input type="radio" name="g"> Male
+                                            <input type="radio" name="g"> Female
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>Interests:</td>
+                                        <td>
+                                            <input type="checkbox"> Coding
+                                            <input type="checkbox"> Music
+                                            <input type="checkbox"> Sports
+                                        </td>
+                                    </tr>
+                                    <tr><td>Select:</td><td><select><option>Opt 1</option><option>Opt 2</option></select></td></tr>
+                                    <tr><td>Message:</td><td><textarea rows="4" cols="40"></textarea></td></tr>
+                                    <tr><td></td><td><button>Submit</button></td></tr>
+                                </table>
+                            </form>
+                        </td></tr>
+                    </table>
+                </section>
+                <br>
+
+                <!-- TABLES SECTION -->
+                <section id="tables">
+                    <table width="100%"  cellpadding="10">
+                        <tr><td>
+                            <h2>Tables</h2>
+                            <table border="1" width="100%" cellpadding="8" >
+                                <caption><b>Sample Data Table</b></caption>
+                                <thead>
+                                    <tr >
+                                        <th>Name</th><th>Age</th><th>City</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr><td>Arjun</td><td>21</td><td>Bhopal</td></tr>
+                                    <tr><td>Veer</td><td>20</td><td>Indore</td></tr>
+                                </tbody>
+                            </table>
+                        </td></tr>
+                    </table>
+                </section>
+                <br>
+
+                <!-- LISTS SECTION -->
+                <section id="lists">
+                    <table width="100%"  cellpadding="10">
+                        <tr><td>
+                            <h2>Lists</h2>
+                            <h3>Ordered</h3>
+                            <ol><li>Step One</li><li>Step Two</li></ol>
+
+                            <h3>Unordered</h3>
+                            <ul><li>Point A</li><li>Point B</li></ul>
+                        </td></tr>
+                    </table>
+                </section>
+                <br>
+
+                <!-- SEMANTIC SECTION -->
+                <section id="semantic">
+                    <table width="100%"  cellpadding="10">
+                        <tr><td>
+                            <h2>Semantic</h2>
+                            <article>
+                                <h3>Sample Article</h3>
+                                <p>Example of semantic structure inside styled HTML table boxes.</p>
+                            </article>
+                        </td></tr>
+                    </table>
+                </section>
+                <br>
+
+                <!-- OTHER SECTION -->
+                <section id="other">
+                    <table width="100%"  cellpadding="10">
+                        <tr><td>
+                            <h2>Misc Tags</h2>
+                            <details><summary>Expand Info</summary><p>More content here.</p></details>
+                            <dialog open><p>Dialog Box</p></dialog>
+                            <p>Progress:</p><progress value="70" max="100"></progress>
+                            <p>Meter:</p><meter value="0.7">70%</meter>
+                            <p>Iframe:</p>
+                            <iframe src="https://example.com" width="300" height="150"></iframe>
+                        </td></tr>
+                    </table>
+                </section>
+                <br>
+
+            </main>
+
+            <footer align="center">
+                <hr color="white">
+                <p>&copy; 2025 HTML‑Only Enhanced Website</p>
+            </footer>
+
+        </td>
+    </tr>
+</table>
+
+</body>
+</html>
